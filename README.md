@@ -31,6 +31,14 @@ flowchart LR
 
 ---
 
+## 演示
+
+| 实车运行（第五问） | 摆球机构与驱动板 |
+|---|---|
+| ![实车运行](docs/images/demo-track.jpg) | ![摆球机构](docs/images/demo-hw.jpg) |
+
+完整演示视频（2 分 03 秒，含第二问定点停车、第五问行驶中锁球）：[docs/media/demo.mp4](docs/media/demo.mp4)（19 MB，可直接播放）
+
 ## 控制周期：10 ms
 
 整机只有一个节拍：`TIM1` 更新中断，**100 Hz**（`ARR=999, PSC=719`，72 MHz/720/1000）。
