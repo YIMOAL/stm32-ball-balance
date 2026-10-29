@@ -1,0 +1,40 @@
+# ===== Keil MDK 编译产物 =====
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.lib
+*.map
+*.lst
+*.dep
+*.iex
+*.__i
+*.bak
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+*.dbgconf
+JLinkSettings.ini
+EventRecorderStub.scvd
+
+# ===== EIDE / VS Code =====
+/.vscode/
+/.eide/
+/.settings
+/build
+/bin
+/obj
+/out
+*.ept
+
+# ===== 系统 =====
+Thumbs.db
+.DS_Store
+desktop.ini
